@@ -1,0 +1,58 @@
+.admin-container {
+    padding: 20px;
+  }
+  
+  .admin-container h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .booking-management {
+    margin-top: 30px;
+  }
+  
+  .booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .booking-table th,
+  .booking-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .booking-table th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .admin-links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .admin-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .admin-links a:hover {
+    text-decoration: underline;
+  }
+  

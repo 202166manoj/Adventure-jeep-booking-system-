@@ -1,0 +1,38 @@
+/* About container style */
+.about-container {
+  text-align: center;
+  padding: 50px;
+  background-image: url('/images/about-bg.jpg');  /* Set your background image path here */
+  background-size: cover;        /* Ensure the image covers the entire container */
+  background-position: center;   /* Center the image */
+  background-repeat: no-repeat;  /* Prevent the image from repeating */
+  color: #fff;                   /* Change text color to white for contrast */
+  height: 100vh;                 /* Set the height to 100vh for full viewport height */
+  display: flex;
+  justify-content: center;       /* Center content horizontally */
+  align-items: center;           /* Center content vertically */
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+/* Heading Style */
+.about-container h1 {
+  font-size: 3em;                /* Increase font size */
+  font-weight: bold;             /* Make the text bold */
+  color: #fff;                   /* White text */
+  text-transform: uppercase;     /* Uppercase text */
+  letter-spacing: 3px;           /* Space out letters */
+  margin-bottom: 20px;           /* Add margin between heading and paragraph */
+  z-index: 1;                    /* Ensure the heading is on top */
+}
+
+/* Paragraph Style */
+.about-container p {
+  font-size: 1.2em;              /* Adjust font size */
+  line-height: 1.8;              /* Increase line height for readability */
+  color: #fff;                   /* White text */
+  max-width: 800px;              /* Limit width of the text */
+  margin: 0 auto;                /* Center the text horizontally */
+  z-index: 1;                    /* Ensure the paragraph is on top */
+  font-style: italic;            /* Make the paragraph italic */
+  font-family: 'Georgia', serif; /* Use a serif font for paragraph text */
+}
